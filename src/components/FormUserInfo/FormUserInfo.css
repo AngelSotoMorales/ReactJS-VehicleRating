@@ -1,0 +1,33 @@
+.div-form {
+  //text-align: center;
+}
+
+.text-format-right {
+  text-align: right;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.label {
+  display: inline;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bolder;
+}
+
+.button-format {
+  margin-bottom: 5%;
+  border: 2px solid #a09e9e;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #a09e9e;
+  border-radius: 10px;
+  width: 45%;
+}

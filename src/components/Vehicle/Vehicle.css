@@ -1,0 +1,40 @@
+.card-vehicle {
+  height: auto;
+  width: 30%;
+  float: left;
+  border: 2px solid #a09e9e;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.border-rounded {
+  border-radius: 25px;
+  border: 2px solid #244371;
+}
+
+.container-glass {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.image-vehicle {
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 95%;
+  height: 60%;
+  text-align: center;
+}
+
+.color-km {
+  color: #a09e9e;
+  margin-top: -15px;
+}
+
+.div-margin {
+  text-align: center;
+}
