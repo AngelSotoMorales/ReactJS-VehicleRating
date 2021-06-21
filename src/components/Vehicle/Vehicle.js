@@ -31,7 +31,7 @@ export default class Vehicle extends Component {
         <img
           alt="ImageCar"
           className="image-vehicle"
-          src="https://i.blogs.es/a6cfa2/volkswagen-taos-mexico_/1366_2000.jpg"
+          src={this.props.image}
         />
         <div className="div-margin">
           <span>

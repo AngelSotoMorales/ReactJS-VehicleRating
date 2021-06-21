@@ -3,7 +3,7 @@ import ListVehicles from "../ListVehicles/ListVehicles";
 import Loading from "../Loading/Loading";
 import "./Body.css";
 
-const OPTIONS_TO_CONNECT_WS = { timeout: 5000 };
+const OPTIONS_TO_CONNECT_WS = { timeout: 10000 };
 //const WS_URL = "http://10.0.0.25:3001/informationVehicles";
 export default class Body extends Component {
   constructor(props) {
@@ -29,6 +29,7 @@ export default class Body extends Component {
         });
       })
       .catch(errorResponse => {
+        console.log("Error, ", errorResponse);
         this.setState({
           error: "Error to get the information",
           loading: false
